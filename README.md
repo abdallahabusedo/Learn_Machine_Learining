@@ -63,3 +63,18 @@ This takes an average difference (actually a fancier version of an average) of a
 
 This function is otherwise called the "Squared error function", or "Mean squared error". The mean is halved 1/2 as a convenience for the computation of the gradient descent, as the derivative term of the square function will cancel out the 1/2 term.
 
+#### Cost function intuition I
+
+![image](https://user-images.githubusercontent.com/42722816/90252547-fb618680-de3f-11ea-9fe2-c590fb4591a8.png)
+
+![image](https://user-images.githubusercontent.com/42722816/90252803-6d39d000-de40-11ea-9aa0-c43e1b4e883b.png)
+
+When θ1 =1, we get a slope of 1 which goes through every single data point in our model. Conversely, when θ1 = 0.5 we see the vertical distance from our fit to the data points increase.
+
+![image](https://user-images.githubusercontent.com/42722816/90252987-b9851000-de40-11ea-9b2e-1e52083a2962.png)
+
+This increases our cost function to 0.58. Plotting several other points yields to the following graph:
+
+![image](https://user-images.githubusercontent.com/42722816/90252862-86428100-de40-11ea-8cbf-90f61a1ef46e.png)
+
+Thus as a goal, we should try to minimize the cost function. In this case, θ1 = 1 is our global minimum.
