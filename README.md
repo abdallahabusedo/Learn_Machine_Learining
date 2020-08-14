@@ -36,3 +36,30 @@ Example: playing checkers.
 - With unsupervised learning there is no feedback based on the prediction results.
  
  Introduction QUIZ 80% 
+ 
+# Linear Regression with one variable
+
+### Model Representation
+![img](http://www.sciweavers.org/tex2img.php?eq=%28x%5Ei%2Cy%5Ei%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+we’ll use x^(i) to denote the “input” variables also called input features, and y^(i) to denote the “output” or target variable that we are trying to predict
+
+this function h is called a hypothesis. Seen pictorially, the process is therefore like this:
+
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/42722816/90248718-83905d80-de39-11ea-9b86-5f0bc443d896.png)
+
+</div>
+
+### Cost function 
+We can measure the accuracy of our hypothesis function by using a cost function. 
+This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
+
+<div align="center">
+ 
+![image](https://user-images.githubusercontent.com/42722816/90249987-a91e6680-de3b-11ea-8465-1aa9af40710c.png)
+
+</div>
+
+This function is otherwise called the "Squared error function", or "Mean squared error". The mean is halved 1/2 as a convenience for the computation of the gradient descent, as the derivative term of the square function will cancel out the 1/2 term.
+
