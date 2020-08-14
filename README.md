@@ -108,4 +108,11 @@ I want to tell you about an algorithm called gradient descent for minimizing the
 
 ![image](https://user-images.githubusercontent.com/42722816/90256872-a4ab7b00-de46-11ea-94c1-dc47e98e7e55.png)
 
-#### Gradient descent intuition
+#### Gradient descent for Linear regression
+
+![image](https://user-images.githubusercontent.com/42722816/90274970-cfef9380-de61-11ea-910c-b968297841ac.png)
+
+![image](https://user-images.githubusercontent.com/42722816/90276029-830cbc80-de63-11ea-9332-8c0054f09232.png)
+
+
+Linear Regression with One Variable QUIZ 100%
