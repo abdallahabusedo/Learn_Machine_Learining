@@ -64,6 +64,7 @@ This takes an average difference (actually a fancier version of an average) of a
 This function is otherwise called the "Squared error function", or "Mean squared error". The mean is halved 1/2 as a convenience for the computation of the gradient descent, as the derivative term of the square function will cancel out the 1/2 term.
 
 #### Cost function intuition I
+`here we are assuming  that θ=0`
 
 ![image](https://user-images.githubusercontent.com/42722816/90252547-fb618680-de3f-11ea-9fe2-c590fb4591a8.png)
 
@@ -78,3 +79,33 @@ This increases our cost function to 0.58. Plotting several other points yields t
 ![image](https://user-images.githubusercontent.com/42722816/90252862-86428100-de40-11ea-8cbf-90f61a1ef46e.png)
 
 Thus as a goal, we should try to minimize the cost function. In this case, θ1 = 1 is our global minimum.
+
+#### Cost function intuition II
+
+![image](https://user-images.githubusercontent.com/42722816/90254077-74fa7400-de42-11ea-95f6-72f340d2a819.png)
+
+A contour plot is a graph that contains many contour lines. A contour line of a two variable function has a constant value at all points of the same line. An example of such a graph is the one to the right below.
+
+![image](https://user-images.githubusercontent.com/42722816/90254151-99565080-de42-11ea-94ad-4e908abef78e.png)
+
+The graph above minimizes the cost function as much as possible and consequently, the result of θ1
+  and θ0 tend to be around 0.12 and 250 respectively. Plotting those values on our graph to the right seems to put our point in the center of the inner most 'circle'.
+
+### Gradient Descent 
+
+![image](https://user-images.githubusercontent.com/42722816/90254717-7aa48980-de43-11ea-8ff6-5c69a2d01da2.png)
+
+I want to tell you about an algorithm called gradient descent for minimizing the cost function J.
+
+
+#### Outline 
+ - start with some θ0, θ1 (say θ0=0 and θ1=0)
+ - keep changing θ0,θ1 to reduce cost function until we hopefully end up at a minimum 
+ 
+#### Gradient descent algorithm 
+
+![image](https://user-images.githubusercontent.com/42722816/90255168-2ea61480-de44-11ea-8156-9803aaf9038a.png)
+
+![image](https://user-images.githubusercontent.com/42722816/90256872-a4ab7b00-de46-11ea-94c1-dc47e98e7e55.png)
+
+#### Gradient descent intuition
