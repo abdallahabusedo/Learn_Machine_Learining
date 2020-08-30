@@ -14,3 +14,6 @@ Linear regression with multiple variables is also known as "multivariate linear 
 
 ![image](https://user-images.githubusercontent.com/42722816/91663713-e85edf80-eaea-11ea-837b-b7126a8709c7.png)
 
+### Features and Polynomial Regression
+
+![image](https://user-images.githubusercontent.com/42722816/91668346-6bdcf880-eb0c-11ea-9794-a4bc583fc639.png)
