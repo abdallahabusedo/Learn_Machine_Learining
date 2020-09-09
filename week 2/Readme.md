@@ -17,3 +17,14 @@ Linear regression with multiple variables is also known as "multivariate linear 
 ### Features and Polynomial Regression
 
 ![image](https://user-images.githubusercontent.com/42722816/91668346-6bdcf880-eb0c-11ea-9794-a4bc583fc639.png)
+
+# Normal Equation
+
+![image](https://user-images.githubusercontent.com/42722816/92630445-28cf1200-f2d0-11ea-84ae-4245e3b936a2.png)
+
+
+|Gradient Descent	|Normal Equation|
+|:--:|:--:|
+|Need to choose alpha	|No need to choose alpha|
+|Needs many iterations	|No need to iterate|
+|Works well when n is large	|Slow if n is very large|
